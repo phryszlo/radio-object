@@ -43,8 +43,6 @@ const radio = {
   ],
 
   randomStation() {
-    const stationLength = radio.stations.length
-    let songsLength = 0;
 
     const station = radio.stations[Math.floor(Math.random() * (radio.stations.length))];
     const song = station.songs[Math.floor(Math.random() * (station.songs.length))];
